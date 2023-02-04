@@ -6,7 +6,7 @@ The annotation process is divided into three stages (Each stage can be individua
  2. Annotation
  3. Visualization
  
- For data procurement:
+ For data procurement: \n
  (1) Operation of signal peptide 
  (2) Operation of structure modelling 
  (3) Operation of quality control 
