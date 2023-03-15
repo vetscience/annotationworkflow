@@ -39,6 +39,33 @@ To use this workflow, follow these steps:
 4. Modify the workflow stages as needed for your species of interest.
 5. Run the workflow using the provided scripts and configuration files.
 
+## Installation
+
+Before running the workflow, you will need to install the required software and dependencies. The following software and libraries are required:
+
+Python (version 3.5 or higher)
+Phobius (https://phobius.sbc.su.se/data.html)
+Alphafold (https://github.com/deepmind/alphafold)
+EggNOG (version 2.0 or higher)
+InterProScan (version 5.5 or higher)
+DeepFRI (https://github.com/flatironinstitute/DeepFRI)
+FATCAT (https://fatcat.godziklab.org/)
+UpSetPlot (version 0.8 or higher)
+
+You can install these dependencies using the package manager of your choice (e.g., pip, conda, etc.). Make sure to install the correct version of each software.
+
+## Input Data
+To run the workflow, you will need input data in the appropriate format. The input data should be a FASTA file containing the protein sequences you wish to annotate. Make sure that the FASTA file follows the standard format, with one sequence per entry and a header line starting with ">".
+
+## Configuration
+The workflow can be configured using the provided configuration files. The configuration files specify the parameters for each operation and can be modified as needed for your species of interest. Make sure to specify the correct paths for the input files and software dependencies in the configuration files.
+
+## Running the Workflow
+To run the workflow, simply execute the provided scripts in the correct order. The scripts will run each operation in the appropriate order and generate the output files. Make sure to check the output files for errors and warnings.
+
+## Output
+The output of the workflow will be a set of annotated protein sequences in various formats (e.g., text, CSV, etc.). The output files will contain the functional annotations assigned to each protein sequence, 
+
 ## Contact
 
 If you have any questions or need more detailed information about this workflow, please don't hesitate to contact us. We are happy to help!
