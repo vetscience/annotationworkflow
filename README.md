@@ -43,14 +43,14 @@ To use this workflow, follow these steps:
 
 Before running the workflow, you will need to install the required software and dependencies. The following software and libraries are required:
 
-Python (version 3.5 or higher)
-Phobius (https://phobius.sbc.su.se/data.html)
-Alphafold (https://github.com/deepmind/alphafold)
-EggNOG (version 2.0 or higher)
-InterProScan (version 5.5 or higher)
-DeepFRI (https://github.com/flatironinstitute/DeepFRI)
-FATCAT (https://fatcat.godziklab.org/)
-UpSetPlot (version 0.8 or higher)
+* Python (version 3.5 or higher；https://www.python.org/)
+* Phobius (https://phobius.sbc.su.se/data.html)
+* Alphafold (https://github.com/deepmind/alphafold)
+* EggNOG (version 2.0 or higher; https://github.com/eggnogdb/eggnog-mapper)
+* InterProScan (version 5.5 or higher; https://github.com/ebi-pf-team/interproscan)
+* DeepFRI (https://github.com/flatironinstitute/DeepFRI)
+* FATCAT (https://fatcat.godziklab.org/)
+* UpSetPlot (version 0.8 or higher; https://upsetplot.readthedocs.io/en/stable/)
 
 You can install these dependencies using the package manager of your choice (e.g., pip, conda, etc.). Make sure to install the correct version of each software.
 
