@@ -1,6 +1,6 @@
-# annotationworkflow
+# Protein Annotation Workflow
 
-The annotation process is divided into three stages (Each stage can be individually modified according to the species that need to be annotated):  
+This repository contains a protein annotation workflow that can be used to annotate protein sequences for various species. The workflow is divided into three stages: data procurement, annotation, and visualization. 
   
  1. Data procurement   
  2. Annotation  
