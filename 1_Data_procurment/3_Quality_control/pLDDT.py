@@ -1,3 +1,4 @@
+# Check your file format first
 f = open("path_to_input_file","r")
 
 dic_AA = {}
