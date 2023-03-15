@@ -6,8 +6,8 @@ This GitHub repository contains a protein annotation workflow that can be used t
 
 The data procurement stage includes three operations:
 
-1. Operation of signal peptide: This operation identifies signal peptides in protein sequences using tools like Phobius (Käll et al., 2004, 2007).
-2. Operation of structure modelling: This operation predicts protein structures using tools like Alphafold (Jumper et al., 2021).
+1. Operation of signal peptide: This operation identifies/removes signal peptides in protein sequences using tools like Phobius (Käll et al., 2004, 2007).
+2. Operation of structure modelling: This operation predicts protein structures using tools like AlphaFold (Jumper et al., 2021).
 3. Operation of quality control: This operation ensures that the protein sequences are of high quality by removing redundant sequences and checking for errors.
 
 ## Annotation
