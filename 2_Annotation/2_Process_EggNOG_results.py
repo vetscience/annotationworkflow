@@ -79,7 +79,7 @@ for one in f.readlines():
     Eggnog_KEGG_ko_list.append(Eggnog_KEGG_ko)
     Eggnog_Pfam_list.append(Eggnog_Pfam)
 
-    # 2022-10-16 add
+    
     Eggnog_KEGG_Module_list.append(Eggnog_KEGG_Module)
     Eggnog_KEGG_Reaction_list.append(Eggnog_KEGG_Reaction)
     Eggnog_KEGG_rclass_list.append(Eggnog_KEGG_rclass)
@@ -97,7 +97,7 @@ data6 = pd.DataFrame({
     "Eggnog_KEGG_ko": Eggnog_KEGG_ko_list,
     "Eggnog_Pfam": Eggnog_Pfam_list,
 
-    # 2022-10-16 add
+    
     "Eggnog_KEGG_Module": Eggnog_KEGG_Module_list,
     "Eggnog_KEGG_Reaction": Eggnog_KEGG_Reaction_list,
     "Eggnog_KEGG_rclass": Eggnog_KEGG_rclass_list,
