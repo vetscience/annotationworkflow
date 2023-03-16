@@ -7,7 +7,7 @@ from upsetplot import plot, from_contents
 plt.style.use('ggplot')
 
 # Read the input data file
-data_Protein_all_raw = pd.read_csv("2.1_Example_input_pie_plot.txt", sep="\t", index_col=0)
+data_Protein_all_raw = pd.read_csv("PATH_TO_INPUT", sep="\t", index_col=0)
 
 # Function to add protein names from a dataframe to a list
 def add_name_in_list(dataframe, datalist):
@@ -43,5 +43,6 @@ def create_upset_plot(data_dict, filename, facecolor):
     plt.savefig(filename, dpi=500)
 
 # Generate UpSet plots
-create_upset_plot(all_list_dict, "Example_2.1.png", '#78E08F')
-create_upset_plot(go_list_dict, "Example_2.2.png", '#60A3BC')
+create_upset_plot(all_list_dict, "PATH_TO_OUTPUT.png", '#78E08F')
+create_upset_plot(go_list_dict, "PATH_TO_OUTPUT.png", '#60A3BC')
+
