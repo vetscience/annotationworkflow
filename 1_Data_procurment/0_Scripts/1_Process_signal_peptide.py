@@ -1,20 +1,29 @@
-f = open("Path_to_input_file","r")
-f1 = open("Path_to_input_file.csv", "w")
-lines = f.readlines()
-for line in lines:
-    line = line.strip()
-    coms = line.split(",")
-    name = coms[0]+"_without_SP"
-    pep_original = coms[1]
-    cut_position = int(coms[2])
-    pep_new = pep_original[cut_position:]
-    print(name)
-    print(cut_position)
-    print(pep_original)
-    print(pep_new)
-    f1.write(name+","+pep_new+"\n")
+import os
 
+# Set file paths
+input_file_path = os.path.join("path", "to", "input_file")
+output_file_path = os.path.join("path", "to", "output_file.csv")
 
+try:
+    # Open input and output files
+    with open(input_file_path, "r") as input_file, open(output_file_path, "w") as output_file:
+        # Iterate over each line in input file
+        for line in input_file:
+            # Parse line into variables
+            name, peptide, cut_position = line.strip().split(",")
 
-f.close()
-f1.close()
+            # Modify name and peptide
+            name += "_without_SP"
+            pep_new = peptide[int(cut_position):]
+
+            # Print and write output
+            print(name)
+            print(cut_position)
+            print(peptide)
+            print(pep_new)
+            output_file.write(f"{name},{pep_new}\n")
+
+except FileNotFoundError:
+    print("Could not open input or output file. Check file paths.")
+except Exception as e:
+    print("An error occurred:", e)
